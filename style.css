@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #E7EB90;
+}
+
+ul li a:hover{
+    color: #FADF63;
+}
+
+ul li a:active{
+    color: #E6AF2E;
+}
+
+/*HEADER*/
+header{
+    background-color: #262318;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    margin-bottom: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li a{
+    display: block;
+    padding: 0 16px;
+}
+
+/*CONTEÚDO*/
+main{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+#museum{
+    display: grid;
+    grid-template-columns: 710px 350px;
+    grid-template-rows: 320px;
+    column-gap: 20px;
+    margin-bottom: 15px;
+}
+
+#content{
+    display: flex;
+}
+
+/*CONTEÚDO PRINCIPAL*/
+#main-content{
+    display: grid;
+    grid-template-columns: 330px 330px;
+    grid-template-rows: 300px 300px;
+    gap: 20px;
+    padding: 15px;
+}
+
+#main-content div{
+    padding: 10px;
+}
+
+#main-content div h3{
+    color: #2274A5;
+    margin-bottom: 5px;
+}
+
+#exhibitions ul{
+    list-style-position: inside;
+}
+
+#exhibitions ul li a{
+    text-align: justify;
+    color: #a76f09;
+}
+
+#leia-mais{
+    text-decoration: none;
+    color: #a76f09;
+}
+
+.bold-link{
+    font-weight: bold;
+}
+
+#story p{
+    text-align: justify;
+}
+
+/*CONTEÚDO LATERAL*/
+#side-content{
+    width: 350px;
+    margin-left: 20px;
+}
+
+#side-content div{
+    padding: 10px;
+}
+
+#side-content div h3{
+    color: #795106;
+    margin-bottom: 5px;
+}
+
+#visit{
+    height: 200px;
+    background-color: #CCC7B4;
+}
+
+form label, form input{
+    display: block;
+}
+
+form input{
+    margin-bottom: 10px;
+}
+
+#verify-button{
+    width: 250px;
+    height: 50px;
+    border: none;
+    background-color: #9C9174;
+}
+
+#verify-button:hover{
+    background-color: #a39d85;
+}
+
+#photo-gallery{
+    background-color: #ECE6DE;
+}
+
+#photos-grid{
+    display: grid;
+    grid-template-columns: 126px 126px;
+    grid-template-rows: 133px 133px;
+    column-gap: 20px;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-grid{
+    background: url(img/fundo-foto.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #262318;
+    margin-top: 25px;
+}
+
+footer div p{
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer div p a{
+    text-decoration: none;
+    color: #a76f09;
+}
